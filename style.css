@@ -1,6 +1,5 @@
 .btn {
     height: 40px;
-    width: 300px;
     border: white 0.5px solid;
     border-radius: 10px;
     color: black;
@@ -38,8 +37,16 @@ font-size: 23px;
 width: 100%;
 margin-bottom: 30px;
 }
-
-
+#btn-2:hover {
+    background: #fa8745;
+    color:white;
+    box-shadow: 0 0 5px #fa8745, 0 0 25px #fa8745, 0 0 50px #fa8745, 0 0 200px #fa8745;
+}
+#btn-3:hover {
+    color:white;
+    box-shadow: inset -10.5em 0 0 0 #fc1849, inset 10.5em 0 0 0 #fc1849;
+}
+ 
 #btn-9 {
     height: 50px;
     margin:10px;
